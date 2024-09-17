@@ -9,22 +9,17 @@ This project demonstrates an IoT-based temperature monitoring system using AWS I
   
 ## Project Structure
 
- GenAI-Ventilator-AWS-Simulation/
-    │
+  .
+└── GenAI-Ventilator-AWS-Simulation/
     ├── simulation/
-    │ └── ventilator_simulation.py # Code for simulating data transmission from ventilators to AWS IoT Core
-    │x
+    │   └── ventilator_simulation.py # Code for simulating data transmission from ventilators to AWS IoT Core
     ├── lambda/
-    │ └── WebSocketConnect.py # AWS Lambda function code for handling WebSocket connections
-    | └── WebSocketDisconnect.py # AWS Lambda function code for handling WebSocket disconnections
-    | └── TemperatureDataProcessor.py # AWS Lambda function code to process the incoming data
-    | └── sendmessage.py # AWS Lambda function code for sending the data
-    │
+    │   ├── WebSocketConnect.py # AWS Lambda function code for handling WebSocket connections
+    │   ├── WebSocketDisconnect.py # AWS Lambda function code for handling WebSocket disconnections
+    │   ├── TemperatureDataProcessor.py # AWS Lambda function code to process the incoming   
+    │   └── sendmessage.py # AWS Lambda function code for sending the data
     ├── streamlit_app/
-    │ └── streamlit_app.py # Streamlit app code to visualize data via WebSocket API
-    │
-    ├── requirements.txt # Python dependencies for all components
-    ├── README.md # Documentation of the project
+    │   └── streamlit_app.py # Streamlit app code to visualize data via WebSocket API
     └── LICENSE # License for the project
 
 
@@ -111,6 +106,5 @@ To run this project, ensure you have the following:
     streamlit run streamlit_app/streamlit_app.py
     ```
 3. Open the displayed URL (usually http://localhost:8501) in your browser to view the real-time dashboard, which shows:
-
         - Temperature Data: Real-time graphs of the temperature readings.
         - System Metrics: Other relevant metrics from the ventilator simulation.
