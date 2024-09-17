@@ -9,18 +9,22 @@ This project demonstrates an IoT-based temperature monitoring system using AWS I
   
 ## Project Structure
 
-  .
-└── GenAI-Ventilator-AWS-Simulation/
-    ├── simulation/
-    │   └── ventilator_simulation.py # Code for simulating data transmission from ventilators to AWS IoT Core
-    ├── lambda/
-    │   ├── WebSocketConnect.py # AWS Lambda function code for handling WebSocket connections
-    │   ├── WebSocketDisconnect.py # AWS Lambda function code for handling WebSocket disconnections
-    │   ├── TemperatureDataProcessor.py # AWS Lambda function code to process the incoming   
-    │   └── sendmessage.py # AWS Lambda function code for sending the data
-    ├── streamlit_app/
-    │   └── streamlit_app.py # Streamlit app code to visualize data via WebSocket API
-    └── LICENSE # License for the project
+```bash
+GenAI-Ventilator-AWS-Simulation/
+  │───README.md
+  │
+  ├───lambda
+  │       sendmessage.py
+  │       TemperatureDataProcessor.py
+  │       WebSocketConnect.py
+  │       WebSocketDisconnect.PY
+  │
+  ├───simulation
+  │       ventilator_simulation.py
+  │
+  └───streamlit_app
+          streamlit_app.py
+```
 
 
 ## Prerequisites
