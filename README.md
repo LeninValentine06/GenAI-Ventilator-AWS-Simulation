@@ -13,6 +13,8 @@ This project demonstrates an IoT-based temperature monitoring system using AWS I
 GenAI-Ventilator-AWS-Simulation/
   │───README.md
   │
+  │───ESP32_prototype.ino
+  │
   ├───lambda
   │       sendmessage.py
   │       TemperatureDataProcessor.py
