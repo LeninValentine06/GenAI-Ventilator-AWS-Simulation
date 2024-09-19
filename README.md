@@ -114,3 +114,8 @@ To run this project, ensure you have the following:
 3. Open the displayed URL (usually http://localhost:8501) in your browser to view the real-time dashboard, which shows:
         - Temperature Data: Real-time graphs of the temperature readings.
         - System Metrics: Other relevant metrics from the ventilator simulation.
+
+## ESP32 Prototype
+Circuit Diagram
+![image](https://github.com/user-attachments/assets/b1360a70-c371-453e-8fbe-706e1e438967)
+
